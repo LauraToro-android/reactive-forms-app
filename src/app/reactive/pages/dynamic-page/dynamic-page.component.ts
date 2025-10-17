@@ -46,12 +46,4 @@ export class DynamicPageComponent {
     this.myForm.markAllAsTouched();
   }
 
-
-
-/* isValidFieldInArray( formArray: FormArray, index: number){
-    return (
-      formArray.controls[index].errors && formArray.controls[index].touched
-    );
-  } */
-
 }
